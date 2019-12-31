@@ -1,0 +1,9 @@
+<div> 
+<label> Select City
+<select (change)="selectCity($event.target.value)"> 
+    <option *ngFor="let city of cities"> {{city}} </option>
+</select>
+</label>
+</div>
+<app-single-city [data]="result"></app-single-city>
+
