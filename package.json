@@ -2,7 +2,7 @@
   "name": "weather-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "n x g",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
