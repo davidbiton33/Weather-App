@@ -2,6 +2,7 @@
 
  
 React Weather App.
+application that provides current and forecasted weather information for a specific location. With the ability to search by city, users can quickly access weather data for their desired location
 
 Uses https://Openweathermap.org APIs
 
