@@ -1,0 +1,95 @@
+.app {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  background: rgb(3, 1, 32);
+  background: linear-gradient(
+    52deg,
+    rgba(23, 20, 88, 1) 0%,
+    rgb(24, 24, 61) 1%,
+    rgb(6, 6, 53) 33%,
+    rgb(12, 3, 85) 70%,
+    rgb(8, 6, 43) 110%
+  );
+  color: rgb(255, 255, 255);
+}
+
+.city > h3 {
+  margin: 13px 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+input[type="text"] {
+  border: none;
+  background-image: url(/public/weather_icons/search.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 17px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 35px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+input::placeholder {
+  color: #000;
+}
+
+.icon {
+  width: 29vh;
+}
+
+.foreCast > h1 {
+  font-size: 4rem;
+}
+.foreCast > h2 {
+  font-size: 1.5rem;
+}
+
+.description {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#alert {
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: rgb(255, 0, 0);
+  max-width: 400px;
+  background-color: rgba(0, 11, 0);
+  font-size: small;
+}
+
+.conditions {
+  font-size: 1.3rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link{
+  max-width: 5vh;
+  filter: saturate(0);
+  margin: 0 7px;
+}
+
+.link.g{
+  width: 4vh !important;
+}
+
+.link:hover{
+  filter: saturate(100);
+}
